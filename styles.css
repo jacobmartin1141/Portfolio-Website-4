@@ -1,3 +1,4 @@
+
 main {
   background: rgb(165, 214, 255);
   padding: 10px 10px 10px 10px
@@ -61,8 +62,13 @@ form div textarea {
 /* Flex stuff */
 
 .group {
+  padding: 10px 10px 10px 10px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.group-small {
+  flex-direction: column;
 }
 
 .item {
@@ -75,12 +81,6 @@ form div textarea {
 }
 
 @media all and (min-width: 1000px) {
-  .group {
-    flex-direction: row;
-  }
-}
-
-@media all and (min-width: 700px) {
   .group-small {
     flex-direction: row;
   }
