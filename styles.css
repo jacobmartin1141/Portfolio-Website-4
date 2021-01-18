@@ -1,0 +1,95 @@
+main {
+  background: rgb(165, 214, 255);
+  padding: 10px 10px 10px 10px
+}
+
+nav {
+  margin: 10px 0 0 0;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid gray;
+}
+
+nav a {
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 50px;
+}
+
+/* Header */
+
+header {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+  background: rgb(218, 238, 255);
+}
+
+h1 {
+  border-bottom: 1px solid gray;
+}
+
+/* Sections */
+
+section {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid gray;
+  margin: 0 0 10px 0;
+  height: 100%;
+
+  background: rgb(218, 238, 255);
+}
+
+section form {
+  width: 100%;
+}
+
+section h3 {
+  width: 248px;
+}
+
+section div div {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid gray;
+}
+
+form div textarea {
+  width: 100%;
+  height: 100px;
+}
+
+/* Flex stuff */
+
+.group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1;
+  margin: 0 10px 10px 0;
+}
+
+.item-double {
+  flex: 2 0;
+}
+
+@media all and (min-width: 1000px) {
+  .group {
+    flex-direction: row;
+  }
+}
+
+@media all and (min-width: 700px) {
+  .group-small {
+    flex-direction: row;
+  }
+}
+
+/* Footer */
+
+footer {
+  padding: 10px 10px 10px 10px;
+  border: 1px solid gray;
+  background: rgb(218, 238, 255);
+}
